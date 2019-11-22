@@ -1,0 +1,19 @@
+{
+  "name": "vicinity-2-watson-adapter",
+  "version": "1.0.0",
+  "description": "This is an adapter to translate data from vicinity nodes following VICINITY thing description to IBM Watson IoT platform",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "VICINITY",
+    "semantic_interoperability",
+    "Watson_IoT_Platform"
+  ],
+  "author": "sensinov",
+  "license": "EPL-1.0",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

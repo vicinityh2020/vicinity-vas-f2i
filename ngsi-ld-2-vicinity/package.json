@@ -1,0 +1,21 @@
+{
+  "name": "ngsi-ld-2-vicinity-adapter",
+  "version": "1.0.0",
+  "description": "this is an adapter to get smart building sensor data following ngsi-ld data model and translates them to vicinity thing description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "semantic interoperability",
+    "ngsi-ld",
+    "VICINITY"
+  ],
+  "author": "sensinov",
+  "license": "EPL-1.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0"
+  }
+}
